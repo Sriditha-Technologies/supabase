@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h2>Clients</h2>
+      <h2 class="page-header text-primary text-center">Clients</h2>
       <p v-if="loading">Loading clients...</p>
       <p v-if="error">{{ error }}</p>
       <table v-if="clients.length">
